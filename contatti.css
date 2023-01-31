@@ -1,0 +1,19 @@
+.contatti{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contatti-items h2{
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px){
+    .contatti{
+        flex-direction: column;
+    }
+    .contatti-items h2{
+        margin-bottom: 0;
+    }
+}
